@@ -1,0 +1,33 @@
+.clouds {
+  position: relative;
+}
+
+.cloud2 {
+  position: relative; 
+   left: 210px;
+   top: -47px;
+}
+
+.cloud1 {
+  position: relative;
+    left: 120px;
+    top: -185px;
+}
+
+.cloud3 {
+  position: relative;
+    left: 355px;
+    top: -355px;
+}
+
+.cloud4 {
+  position: relative;
+  left: 260px;
+  top: -280px;
+}
+
+.cloud5 {
+  position: relative;
+  left: -218px;
+  top: -550px;
+}
