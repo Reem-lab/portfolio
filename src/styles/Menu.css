@@ -1,0 +1,58 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(56,36,87), rgb(155,47,117), rgb(250,76,92));
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 800;
+}
+
+.ul-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  list-style: none;
+  margin-top: 1.2rem;
+}
+
+.li-menu {
+
+}
+
+.anchor {
+  text-decoration: none;
+  color: #fff;
+  font-size: 7.5rem;
+  font-weight: 400;
+}
+
+.anchor:hover {
+  text-decoration: line-through;
+  transition: 3s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateX(-100%);
+    left: 0%;
+  }
+
+  100% {
+    transform: translateX(0);
+    left: 100%;
+  }
+}
+
+.exit-div {
+   position: relative;
+   right: -140px;
+}
+
+.exit {
+  width: 6.2rem;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+import exit from '../images/exit.svg';
+import '../styles/Menu.css';
+
+const Menu = ({onclick}) => {
+  return (
+    <div className='main'>
+     <nav class="nav">
+       <ul class="ul-menu">
+       <li  class="li-menu"><a class="anchor" href="#works">HOME</a></li>
+         <li  class="li-menu"><a class="anchor" href="#works">WORKS</a></li>
+         <li class="li-menu"><a class="anchor" href="#aboutMe">ABOUT</a></li>
+         <li class="li-menu"><a class="anchor" href="#end">CONTACT</a></li>
+       </ul>
+    </nav>
+        <div className="exit-div" > 
+        <img class="exit" src={exit} alt="exit" onClick={onclick}/>
+         </div>
+        </div>
+  )
+}
+
+export default Menu;
