@@ -21,7 +21,10 @@ body {
   background-repeat: no-repeat;
   background-position-x: 399px;
   background-position-y: -320px;
+  background-size: cover;
   position: relative;
+  overflow: hidden;
+  /* height: 100vh; */
   /* right: -393px; */
 }
 
