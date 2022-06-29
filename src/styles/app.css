@@ -10,21 +10,19 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #07203f;
   color: #ffffff;
-  background-image: url('../images/star.svg');
-  background-position: 390px;
-  /* background-position-y: -220px; */
-  position: relative;
+  /* background-image: url('../images/star.svg');
+  background-position: 390px; 
+  background-position-y: -220px;
+   position: relative; */
 }
 
 .app {
-  background-image: url('../images/moonlight.svg');
-  background-repeat: no-repeat;
+  background: url('../images/moonlight.svg') no-repeat fixed 100%;
   background-position-x: 399px;
   background-position-y: -320px;
-  background-size: cover;
   position: relative;
   overflow: hidden;
-  /* height: 100vh; */
+  /* height: 100vh;  */
   /* right: -393px; */
 }
 
