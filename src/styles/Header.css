@@ -1,8 +1,8 @@
 .intro {
-  /* background-image: url('../images/star.svg');
+  background-image: url('../images/star.svg');
   background-position-x: 390px;
   background-position-y: -220px;
-  position: relative; */
+  position: relative;
   height: 100vh;
 }
 
