@@ -1,0 +1,59 @@
+.works {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.side-text {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 1.2rem;
+    margin: 8rem;
+}
+
+.projects-text {
+   font-size: 4.4rem;
+   font-weight: 600;
+   max-width: 80%;
+}
+
+.number-text {
+  font-size: 8.2rem;
+  font-weight: 700;
+  top: -85px;
+  left: 410px;
+  position: relative;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: #ff4d5A;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 40px;
+  border: 1px solid #ff4d5A;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  /* height: 20%; */
+  position: relative;
+  top: 110px;
+  right: 85px;
+  border-radius: 12px;
+}
+
+/* image::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: #07203f;
+  opacity: 0.5;
+  cursor: pointer;
+} */
