@@ -36,6 +36,7 @@
   border-radius: 40px;
   border: 1px solid #ff4d5A;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .image {
