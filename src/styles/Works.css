@@ -48,6 +48,9 @@
   border-radius: 12px;
 }
 
+.side--text-projects {
+  background-color: #020B16;
+}
 /* image::after {
   content: "";
   width: 100%;
