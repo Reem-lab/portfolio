@@ -36,6 +36,7 @@
   border-radius: 40px;
   border: 1px solid #ff4d5A;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .image {
@@ -47,6 +48,9 @@
   border-radius: 12px;
 }
 
+.side--text-projects {
+  background-color: #020B16;
+}
 /* image::after {
   content: "";
   width: 100%;
