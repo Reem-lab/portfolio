@@ -1,6 +1,4 @@
 .card-container {
-  /* width: 100%; */
-  /* height: 100%; */
   padding: 3.6rem;
   display: -ms-grid;
   display: grid;
@@ -28,11 +26,9 @@
   width: 280px;
   height: 215px;
   cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
 }
-
-/* .card .face {
-  transition: all 0.5s ease 0s;
-} */
 
 .card .face.face1 {
   position: relative;
@@ -41,14 +37,12 @@
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
-    background-color: #ff4d5a;
-    filter: brightness(0.5);
+    background-color: #07203F;
 }
 
-.card .face.face1:hover, 
-.card .face.face.face1:active {
-  top: -190px;
-  filter: brightness(-2.5);
+.card:hover .face.face1 {
+  background: #ff4d5a;
+  transform: translateY(0);
 }
 
 .card .face.face2 {
@@ -61,6 +55,10 @@
   transform: translateY(-100px);
   background: rgb(255, 255, 255);
   padding: 20px;
+} 
+
+.card:hover .face.face2 {
+  transform: translateY(0);
 }
 
 
@@ -72,7 +70,6 @@
 
 .link {
   width: 120px;
-  /* height: 35px; */
   padding: 6px;
   color: #fff;
   background-color: #ff4d5a;
@@ -91,6 +88,7 @@
   width: 280px;
   color: #020B16;
   font-weight: 600;
+  padding: 0 7px;
 }
 
 .image-project {
@@ -102,6 +100,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .header-works {
