@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@400;600;800;900&family=Roboto+Mono:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+
 .works {
   width: 100vw;
   height: 100vh;
@@ -11,15 +14,19 @@
    align-items: flex-start;
    gap: 1.2rem;
     margin: 8rem;
+    z-index: 10;
 }
 
 .projects-text {
    font-size: 4.4rem;
-   font-weight: 600;
+   font-weight: 700;
    max-width: 80%;
+   /* position: absolute;
+   z-index: 5px; */
 }
 
 .number-text {
+  font-family: 'Abril Fatface', cursive;
   font-size: 8.2rem;
   font-weight: 700;
   top: -85px;
@@ -40,12 +47,13 @@
 }
 
 .image {
-  width: 100%;
+  width: 120%;
   /* height: 20%; */
   position: relative;
   top: 110px;
-  right: 85px;
+  right: 180px;
   border-radius: 12px;
+  z-index: -10;
 }
 
 .side--text-projects {
