@@ -19,6 +19,8 @@
    gap: 1.2rem;
     margin: 8rem;
     z-index: 10;
+    position: relative;
+    top: -15px;
 }
 
 .show-more {
@@ -31,8 +33,6 @@
    font-weight: 700;
    max-width: 80%;
    letter-spacing: 2px;
-   /* position: absolute;
-   z-index: 5px; */
 }
 
 .number-text {
@@ -49,7 +49,7 @@
   font-size: 8.2rem;
   font-weight: 700;
   top: -85px;
-  left: 540px;
+  left: 520px;
   position: relative;
 }
 
@@ -65,12 +65,16 @@
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: #e64551;
+}
+
 .image {
   width: 125%;
   /* height: 20%; */
   position: relative;
   top: 110px;
-  right: 240px;
+  right: 250px;
   border-radius: 15px;
   z-index: -10;
 }
@@ -102,6 +106,7 @@
   word-spacing: 5px;
   /* letter-spacing: 1px; */
   line-height: 40px;
+  padding-bottom: 15px;
   /* padding: 4px; */
 }
 
@@ -111,6 +116,15 @@
   /* justify-content: center; */
   align-items: flex-start;
   gap: 10px;
+}
+
+.lines--about {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-self: flex-start;
+  width: 140px;
+  margin: 20px;
 }
 
 /* image::after {
