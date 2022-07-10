@@ -20,7 +20,7 @@ const About = () => {
   }}
   >
            <p className="projects-text-about">About me</p>
-          <div className="lines">
+          <div className="lines--about">
               <div className="horizontal-line-red" />
                <div className="horizontal-line-red second" />
            </div>
