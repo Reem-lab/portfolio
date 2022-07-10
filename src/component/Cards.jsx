@@ -1,4 +1,4 @@
-import Data from './porjectsData';
+import Data from './porjectsData.js';
 import '../styles/Cards.css';
 
 const Cards = () => {
