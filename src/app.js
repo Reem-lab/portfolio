@@ -4,6 +4,7 @@ import Home from './component/Home';
 import './styles/app.css';
 import img6 from './images/star.svg';
 import Projects from './component/Projects';
+import InfoMe from './component/InfoMe';
 
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
-          {/* <Route path="/MyProfile" element={<MyProfile />} />
-          <Route path="/Dragons" element={<Dragons />} /> */}
+           <Route path="/InfoMe" id="#info" element={<InfoMe />} />
+          {/* <Route path="/Dragons" element={<Dragons />} />  */}
         </Routes>
       </Router>
     </div>
