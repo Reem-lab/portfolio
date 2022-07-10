@@ -1,4 +1,5 @@
 import Passion from './Passion';
+import Skills from './Skills';
 import photoMe from '../images/myphoto.jpg';
 import '../styles/WhoMe.css';
 
@@ -19,6 +20,7 @@ const WhoMe = () => {
 
     </section>
      <Passion />
+     <Skills />
     </>
   )
 }
