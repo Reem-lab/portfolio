@@ -49,7 +49,6 @@ const About = () => {
            <p className="number-text--two">02</p>
            </Animate>
         </div>
-
     </div>
   )
 }
