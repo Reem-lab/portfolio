@@ -6,6 +6,10 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  background-image: url('../images/star.svg');
+  background-position-x: 390px;
+  background-position-y: -220px;
+  position: relative;
 }
 
 .side-text {
@@ -17,10 +21,16 @@
     z-index: 10;
 }
 
+.show-more {
+  display: inline-block;
+  padding-top: 80px;
+}
+
 .projects-text {
    font-size: 4.4rem;
    font-weight: 700;
    max-width: 80%;
+   letter-spacing: 2px;
    /* position: absolute;
    z-index: 5px; */
 }
@@ -30,7 +40,16 @@
   font-size: 8.2rem;
   font-weight: 700;
   top: -85px;
-  left: 410px;
+  left: 370px;
+  position: relative;
+}
+
+.number-text--two {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 8.2rem;
+  font-weight: 700;
+  top: -85px;
+  left: 540px;
   position: relative;
 }
 
@@ -47,18 +66,53 @@
 }
 
 .image {
-  width: 120%;
+  width: 125%;
   /* height: 20%; */
   position: relative;
   top: 110px;
-  right: 180px;
-  border-radius: 12px;
+  right: 240px;
+  border-radius: 15px;
   z-index: -10;
 }
 
 .side--text-projects {
   background-color: #020B16;
 }
+
+.about-image {
+  width: 730px;
+  height: 500px;
+  position: relative;
+  top: 80px;
+  right: 90px;
+  border-radius: 15px;
+  z-index: -10;
+}
+
+.projects-text-about {
+  font-size: 5.5rem;
+  font-weight: 700;
+  max-width: 80%;
+  letter-spacing: 9px;
+}
+
+.span-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  word-spacing: 5px;
+  /* letter-spacing: 1px; */
+  line-height: 40px;
+  /* padding: 4px; */
+}
+
+.about-span--link {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 10px;
+}
+
 /* image::after {
   content: "";
   width: 100%;

@@ -24,7 +24,7 @@ const Works = () => {
               <div className="horizontal-line-red" />
                <div className="horizontal-line-red second" />
            </div>
-            <Link to="/Projects" className="btn" exact>
+            <Link to="/Projects" className="btn show-more" exact>
               Show me more
             </Link>
             </Animate>
