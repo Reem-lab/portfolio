@@ -1,0 +1,12 @@
+.info-projects--text {
+  font-size: 6.3rem;
+  font-weight: 700;
+  max-width: 80%;
+  letter-spacing: 9px;
+}
+
+.side--text-about {
+  position: relative;
+  left: -135px;
+  top: 95px;
+}

@@ -9,7 +9,9 @@ const Projects = () => {
     <>
     <section className="projects">
      <div className="works-projects">
-     <Link className="arrow" to="/"> <FaArrowLeft className="backArrow" /></Link>
+     <div onClick={() => window.location.replace('/#works')} className="arrow" >
+     <FaArrowLeft className="backArrow" />
+     </div>
       <div className="side--text-projects">
         <p className="projects--text">MOST HIGHLIGHTED PORJECTS</p>
           <div className="lines">

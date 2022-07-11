@@ -60,6 +60,7 @@
   position: relative;
   left: -4px;
   top: 25px;
+  cursor: pointer;
 }
 
 .backArrow {
