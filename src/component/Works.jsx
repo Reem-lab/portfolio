@@ -6,7 +6,7 @@ import projects from '../images/project7.jpg';
 
 const Works = () => {
   return (
-    <div className="works">
+    <div id="works"  className="works">
         <div className="side-text">
         <Animate
   play

@@ -6,8 +6,8 @@ import img6 from './images/star.svg';
 import Projects from './component/Projects';
 import InfoMe from './component/InfoMe';
 
-
 function App() {
+
   return (
     <div className="app">
       <Router>

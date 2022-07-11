@@ -6,7 +6,7 @@ import about from '../images/about.jpg';
 
 const About = () => {
   return (
-    <div className="works">
+    <div id="about" className="works">
         <div className="side-text">
         <Animate
   play

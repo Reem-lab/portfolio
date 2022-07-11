@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import about from '../images/about.jpg';
 import { FaArrowLeft } from 'react-icons/fa';
 import '../styles/InfoMe.css';
@@ -10,7 +9,9 @@ const InfoMe = () => {
     <>
     <section className="projects">
      <div className="works-projects">
-     <Link className="arrow" to="/"> <FaArrowLeft className="backArrow" /></Link>
+     <div onClick={() => window.location.replace('/#about')} className="arrow" >
+       <FaArrowLeft className="backArrow" />
+       </div>
       <div className="side--text-about">
         <p className="info-projects--text">About ME</p>
           <div className="lines">
