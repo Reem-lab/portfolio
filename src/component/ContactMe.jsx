@@ -2,11 +2,11 @@
 import { Link } from 'react-router-dom';
 import { Animate } from 'react-simple-animate';
 import '../styles/Works.css';
-import projects from '../images/project7.jpg';
+import contact from '../images/contact.jpg';
 
-const Works = () => {
+const ContactMe = () => {
   return (
-    <div id="works"  className="works">
+    <div id="contact" className="works">
         <div className="side-text">
         <Animate
   play
@@ -19,14 +19,16 @@ const Works = () => {
     transform: "translatex(0px)",
   }}
   >
-           <p className="projects-text">MOST HIGHLIGHTED PROJECTS</p>
-          <div className="lines">
+           <p className="projects-text-about">Get In Touch</p>
+          <div className="lines--about">
               <div className="horizontal-line-red" />
                <div className="horizontal-line-red second" />
            </div>
-            <Link to="/Projects" className="btn show-more" exact>
-              Show me more
+           <div className="about-span--link">
+            <Link to="/Form" className="btn" exact>
+              Let's connect
             </Link>
+           </div>
             </Animate>
         </div>
         <div className="img-div">
@@ -42,13 +44,12 @@ const Works = () => {
     transform: "translatex(0px)",
   }}
   >
-           <img className="image" src={projects} alt="projects" />
-           <p className="number-text">01</p>
+           <img className="about-image" src={contact} alt="projects" />
+           <p className="number-text--two">03</p>
            </Animate>
         </div>
-
     </div>
   )
 }
 
-export default Works;
+export default ContactMe;
