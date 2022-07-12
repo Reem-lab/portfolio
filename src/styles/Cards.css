@@ -103,8 +103,10 @@
 
 .header-works {
   background-color: #020B16;
-  padding: 12px;
-  padding-bottom: 30px;
+  /* padding: 12px; */
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-bottom: 10px;
 }
 
 .heading-two {
