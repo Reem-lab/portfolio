@@ -4,6 +4,7 @@
   background-position-y: -220px;
   position: relative;
   height: 100vh;
+  scroll-snap-align: start;
 }
 
 .horizontal-line {

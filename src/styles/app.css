@@ -11,10 +11,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #07203f;
   color: #ffffff;
-  /* background-image: url('../images/star.svg');
-  background-position: 390px; 
-  background-position-y: -220px;
-   position: relative; */
 }
 
 .app {
@@ -23,7 +19,5 @@ body {
   background-position-y: -320px;
   position: relative;
   overflow: hidden;
-  /* height: 100vh;  */
-  /* right: -393px; */
 }
 

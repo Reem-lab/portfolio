@@ -13,7 +13,7 @@ const Projects = () => {
      <FaArrowLeft className="backArrow" />
      </div>
       <div className="side--text-projects">
-        <p className="projects--text">MOST HIGHLIGHTED PORJECTS</p>
+        <p className="projects--text">MOST HIGHLIGHTED PROJECTS</p>
           <div className="lines">
               <div className="horizontal--line-red" />
                <div className="horizontal-line-red second" />

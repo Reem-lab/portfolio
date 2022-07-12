@@ -16,7 +16,7 @@ const Header = () => (
     <Animate
   play
   duration={1.5}
-  delay={1}
+  delay={0.5}
   start={{
     transform: "translateX(-1000px)",
   }}
@@ -37,7 +37,7 @@ const Header = () => (
     <Animate
   play
   duration={1.5}
-  delay={1}
+  delay={0.5}
   start={{
     transform: "translateX(1000px)",
   }}

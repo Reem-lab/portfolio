@@ -1,0 +1,38 @@
+.contact-form--wrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+justify-content: flex-start;
+align-items: flex-end;
+gap: 30px;
+margin-right: 200px;
+}
+
+.input {
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 6px 3px rgb(213,218,223);
+
+}
+
+.input:hover {
+  border: 1px solid #e64551;
+}
+
+.input-text-area {
+  height: 150px;
+}
+
+.left-side--form {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 120px;
+}

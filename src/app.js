@@ -5,6 +5,7 @@ import './styles/app.css';
 import img6 from './images/star.svg';
 import Projects from './component/Projects';
 import InfoMe from './component/InfoMe';
+import Form from './component/Form';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Projects" element={<Projects />} />
            <Route path="/InfoMe" id="#info" element={<InfoMe />} />
-          {/* <Route path="/Dragons" element={<Dragons />} />  */}
+          <Route path="/Form" element={<Form />} /> 
         </Routes>
       </Router>
     </div>
