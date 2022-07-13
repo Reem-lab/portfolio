@@ -5,16 +5,13 @@
   position: relative;
   height: 100vh;
   scroll-snap-align: start;
+  display: flex;
 }
 
 .horizontal-line {
   width: 50px;
   height: 5px;
   color: #ffff;
-}
-
-.intro {
-  display: flex;
 }
 
 .info {

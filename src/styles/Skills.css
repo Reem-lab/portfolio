@@ -48,9 +48,9 @@
 }
 
 .skill-percent {
-   display: flex;
-   gap: 20px;
-   justify-content: baseline;
+  display: flex;
+  gap: 20px;
+  justify-content: baseline;
 }
 
 .skill-paragraph {
@@ -64,7 +64,7 @@
   color: #9ca0a3;
   font-size: 0.8rem;
   font-weight: 400;
-  letter-spacing: 2;
+  letter-spacing: 2px;
 }
 
 /* .skill-icon {
@@ -86,7 +86,7 @@
   height: 15px;
   border-radius: 9px;
   position: relative;
-  box-shadow: 1px 5px 6px 3px rgb(213,218,223);
+  box-shadow: 1px 5px 6px 3px rgb(213, 218, 223);
 }
 
 .progress-line {
@@ -94,7 +94,7 @@
   height: 100%;
   border-radius: 10px;
   position: absolute;
-  background-image: linear-gradient(to right, rgb(56,36,87), rgb(155,47,117), rgb(250,76,92));
+  background-image: linear-gradient(to right, rgb(56, 36, 87), rgb(155, 47, 117), rgb(250, 76, 92));
 }
 
 .percent {
@@ -107,7 +107,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, rgb(56,36,87), rgb(155,47,117), rgb(250,76,92));
+  background-image: linear-gradient(to right, rgb(56, 36, 87), rgb(155, 47, 117), rgb(250, 76, 92));
 }
 
 .mail {
@@ -115,7 +115,7 @@
   text-decoration: none;
   font-size: 2.3rem;
   font-weight: 500;
-  letter-spacing: 5;
+  letter-spacing: 5px;
 }
 
 .mail:hover {

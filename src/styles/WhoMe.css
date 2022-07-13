@@ -39,7 +39,7 @@
 .heading-secondary {
   color: #020b16;
   font-weight: 600;
-   font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .horizontal--line-black {
@@ -60,5 +60,5 @@
   width: 450px;
   height: 400px;
   margin: 12px;
-  box-shadow: 1px 35px 60px 30px rgb(213,218,223);
+  box-shadow: 1px 35px 60px 30px rgb(213, 218, 223);
 }

@@ -3,7 +3,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: #020B16;
+  background-color: #020b16;
 }
 
 .image2 {
@@ -16,12 +16,11 @@
 }
 
 .side--text-projects {
-  background-color: #020B16;
+  background-color: #020b16;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
 .projects--text {
@@ -39,6 +38,7 @@
   align-self: flex-start;
   width: 140px;
   margin: 35px;
+
   /* position: relative;
   left: 160px; */
 }

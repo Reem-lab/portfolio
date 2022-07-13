@@ -5,7 +5,7 @@
   gap: 50px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  background-color: #020B16;
+  background-color: #020b16;
 }
 
 .card {
@@ -16,7 +16,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .face {
   display: flex;
@@ -32,12 +31,12 @@
 
 .card .face.face1 {
   position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(100px);
-    background-color: #07203F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  background-color: #07203f;
 }
 
 .card:hover .face.face1 {
@@ -53,12 +52,11 @@
   transform: translateY(-100px);
   background: rgb(255, 255, 255);
   padding: 20px;
-} 
+}
 
 .card:hover .face.face2 {
   transform: translateY(0);
 }
-
 
 .links-div {
   display: flex;
@@ -81,10 +79,9 @@
   background-color: #ff717b;
 }
 
-
 .description {
   width: 280px;
-  color: #020B16;
+  color: #020b16;
   font-weight: 600;
   padding: 0 7px;
 }
@@ -102,7 +99,8 @@
 }
 
 .header-works {
-  background-color: #020B16;
+  background-color: #020b16;
+
   /* padding: 12px; */
   padding-top: 70px;
   padding-left: 50px;

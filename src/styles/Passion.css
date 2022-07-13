@@ -41,7 +41,7 @@
 }
 
 .design {
- padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .react-icon {
@@ -50,7 +50,7 @@
   border-radius: 130px;
   padding-top: 12px;
   padding-bottom: 12px;
-  background-image: linear-gradient(to right, rgb(56,36,87), rgb(155,47,117), rgb(250,76,92));
+  background-image: linear-gradient(to right, rgb(56, 36, 87), rgb(155, 47, 117), rgb(250, 76, 92));
 }
 
 .design-paragraph {
