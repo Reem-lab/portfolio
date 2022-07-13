@@ -1,9 +1,10 @@
 .main {
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to right, rgb(56,36,87), rgb(155,47,117), rgb(250,76,92));
+  background-image: linear-gradient(to right, rgb(56, 36, 87), rgb(155, 47, 117), rgb(250, 76, 92));
   display: flex;
   justify-content: center;
+
   /* position: fixed; */
   top: 0;
   left: 0;
@@ -44,8 +45,8 @@
 }
 
 .exit-div {
-   position: relative;
-   right: -140px;
+  position: relative;
+  right: -140px;
 }
 
 .exit {

@@ -13,14 +13,14 @@
 }
 
 .side-text {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 1.2rem;
-    margin: 8rem;
-    z-index: 10;
-    position: relative;
-    top: -15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin: 8rem;
+  z-index: 10;
+  position: relative;
+  top: -15px;
 }
 
 .show-more {
@@ -29,10 +29,10 @@
 }
 
 .projects-text {
-   font-size: 4.4rem;
-   font-weight: 700;
-   max-width: 80%;
-   letter-spacing: 2px;
+  font-size: 4.4rem;
+  font-weight: 700;
+  max-width: 80%;
+  letter-spacing: 2px;
 }
 
 .number-text {
@@ -55,12 +55,12 @@
 
 .btn {
   padding: 1rem;
-  background-color: #ff4d5A;
+  background-color: #ff4d5a;
   color: #fff;
   font-size: 1.2rem;
   font-weight: 400;
   border-radius: 40px;
-  border: 1px solid #ff4d5A;
+  border: 1px solid #ff4d5a;
   cursor: pointer;
   text-decoration: none;
 }
@@ -71,6 +71,7 @@
 
 .image {
   width: 125%;
+
   /* height: 20%; */
   position: relative;
   top: 110px;
@@ -80,7 +81,7 @@
 }
 
 .side--text-projects {
-  background-color: #020B16;
+  background-color: #020b16;
 }
 
 .about-image {
@@ -100,20 +101,22 @@
   letter-spacing: 9px;
 }
 
-
 .span-text {
   font-size: 1.6rem;
   font-weight: 500;
   word-spacing: 5px;
+
   /* letter-spacing: 1px; */
   line-height: 40px;
   padding-bottom: 15px;
+
   /* padding: 4px; */
 }
 
 .about-span--link {
   display: flex;
   flex-direction: column;
+
   /* justify-content: center; */
   align-items: flex-start;
   gap: 10px;

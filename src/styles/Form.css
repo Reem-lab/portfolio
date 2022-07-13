@@ -7,18 +7,17 @@
 .form {
   display: flex;
   flex-direction: column;
-justify-content: flex-start;
-align-items: flex-end;
-gap: 30px;
-margin-right: 200px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 30px;
+  margin-right: 200px;
 }
 
 .input {
   width: 400px;
   height: 35px;
   border-radius: 5px;
-  box-shadow: 1px 5px 6px 3px rgb(213,218,223);
-
+  box-shadow: 1px 5px 6px 3px rgb(213, 218, 223);
 }
 
 .input:hover {
