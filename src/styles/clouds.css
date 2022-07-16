@@ -31,3 +31,18 @@
   left: -218px;
   top: -550px;
 }
+
+@media only screen and (max-width: 480px) {
+  .cloud2 {
+    position: relative;
+    left: 210px;
+    top: -47px;
+  }
+  
+  .cloud1 {
+    position: relative;
+    left: 120px;
+    top: -185px;
+  }
+
+}

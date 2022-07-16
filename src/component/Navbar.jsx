@@ -6,7 +6,7 @@ import '../styles/Navbar.css';
 
 const Navbar = () => {
   const [menu, setmenu] = useState(false)
-  const showMenu = ()=>{
+  const showMenu = () => {
     setmenu(true)
   }
 
@@ -24,14 +24,14 @@ const Navbar = () => {
     <div className="wrap-social">
       <div className="social">
         <a className="anchor-link" href="https://twitter.com/Rem79940127">
-        <AiOutlineTwitter className="social-icon" />
+          <AiOutlineTwitter className="social-icon" />
         </a>
-       <a className="anchor-link" href='https://github.com/Reem-lab'>
-       <AiFillGithub className="social-icon" />
-       </a>
-       <a className="anchor-link" href="https://www.linkedin.com/in/reemjanina/" >
-       <AiFillLinkedin className="social-icon" />
-       </a>
+        <a className="anchor-link" href='https://github.com/Reem-lab'>
+          <AiFillGithub className="social-icon" />
+        </a>
+        <a className="anchor-link" href="https://www.linkedin.com/in/reemjanina/" >
+          <AiFillLinkedin className="social-icon" />
+        </a>
       </div>
       <div className="menu" onClick={showMenu} >
         <HiOutlineMenuAlt4 className="menu-bar" />

@@ -77,3 +77,29 @@
   letter-spacing: 2px;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 480px) {
+  .intro {
+    background: url('../images/moonlight.svg') no-repeat fixed 100%;
+    background-position-x: -88px;
+    background-size: cover;
+    background-position-y: -94px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  .info {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column-reverse;
+  }
+
+  .moon {
+    position: relative;
+    left: -338px;
+    top: -416px;
+    width: 305px;
+  }
+
+}
