@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
 
   /* position: fixed;
   top: 0;
@@ -42,27 +42,26 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 420px) {
   .nav {
-    background: url('../images/moonlight.svg') no-repeat fixed 100%;
-    background-position-x: -88px;
-    background-size: cover;
-    background-position-y: -94px;
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+    gap: 26px;
+    padding: 20px;
   }
 
-       .social-icon {
-        display: none;
-       }
+  .social-icon {
+    display: none;
+  }
 
-       .menu-bar {
-         margin-left: 140px;
-       }
+  .menu-bar {
+    margin-left: 140px;
+    width: 38px;
+    height: 41px;
+  }
 
-       .name-nav {
-         font-size: 19px;
-         letter-spacing: 0.5px;
-       }
+  .name-nav {
+    font-size: 16px;
 
+    /* letter-spacing: 0.5px; */
+  }
 }
