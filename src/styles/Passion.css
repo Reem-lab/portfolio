@@ -63,3 +63,13 @@
 .heading-ternary {
   color: #072142;
 }
+
+@media only screen and (max-width: 420px) {
+  .passion-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
