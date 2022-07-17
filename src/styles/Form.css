@@ -11,6 +11,7 @@
   align-items: flex-end;
   gap: 30px;
   margin-right: 200px;
+  margin-bottom: 50px;
 }
 
 .input {
@@ -34,4 +35,24 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding-top: 120px;
+}
+
+@media only screen and (max-width: 420px) {
+  .form {
+    margin-right: 39px;
+  }
+
+  .number-text--form {
+    font-size: 30px;
+  }
+
+  .question-contact {
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    padding-bottom: 50px;
+  }
+
+  .input {
+    width: 300px;
+  }
 }
