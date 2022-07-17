@@ -26,7 +26,7 @@ const About = () => {
            </div>
            <div className="about-span--link">
            <span className="span-text">I love Design, Technology, and React.</span>
-            <Link to="/InfoMe" className="btn" exact>
+            <Link to="/InfoMe" className="btn about-btn" exact>
               Show me more
             </Link>
            </div>
