@@ -1,0 +1,21 @@
+.social-links--site {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.anchor-link {
+  color: #fff;
+}
+
+.anchor-link:hover {
+  color: #b3b3b3;
+}
+
+.social-icon--footer {
+  width: 50px;
+  height: 35px;
+  margin-right: 5px;
+  cursor: pointer;
+}
