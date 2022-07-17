@@ -32,17 +32,44 @@
   top: -550px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 420px) {
   .cloud2 {
     position: relative;
-    left: 210px;
-    top: -47px;
-  }
-  
-  .cloud1 {
-    position: relative;
-    left: 120px;
-    top: -185px;
+    left: -480px;
+    top: 88px;
+    width: 260px;
+    height: 106px;
   }
 
+  .cloud1 {
+    position: relative;
+    left: -287px;
+    top: -79px;
+    width: 260px;
+    height: 106px;
+  }
+
+  .cloud3 {
+    position: relative;
+    left: -101px;
+    top: -175px;
+    width: 260px;
+    height: 106px;
+  }
+
+  .cloud4 {
+    position: relative;
+    left: -140px;
+    top: -140px;
+    width: 260px;
+    height: 106px;
+  }
+
+  .cloud5 {
+    position: relative;
+    left: -380px;
+    top: -271px;
+    width: 260px;
+    height: 106px;
+  }
 }
