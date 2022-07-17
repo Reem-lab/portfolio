@@ -105,19 +105,13 @@
   font-size: 1.6rem;
   font-weight: 500;
   word-spacing: 5px;
-
-  /* letter-spacing: 1px; */
   line-height: 40px;
   padding-bottom: 15px;
-
-  /* padding: 4px; */
 }
 
 .about-span--link {
   display: flex;
   flex-direction: column;
-
-  /* justify-content: center; */
   align-items: flex-start;
   gap: 10px;
 }
@@ -129,4 +123,101 @@
   align-self: flex-start;
   width: 140px;
   margin: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .works {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/moonlight.svg') no-repeat fixed 100%;
+    background-position-x: -88px;
+    background-size: 562px;
+    background-position-y: -42px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 327px;
+    height: 379px;
+    position: relative;
+    left: -10px;
+    top: 208px;
+    border-radius: 1px;
+  }
+
+  .projects-text {
+    font-size: 30px;
+    position: relative;
+    left: -62px;
+    top: -158px;
+  }
+
+  .lines-works {
+    position: relative;
+    left: -88px;
+    top: -177px;
+    gap: 5px;
+  }
+
+  .horizontal-line-red {
+    height: 2px;
+  }
+
+  .show-more {
+    position: relative;
+    top: -173px;
+    padding: 11px;
+  }
+
+  .about-image {
+    width: 327px;
+    height: 410px;
+    position: relative;
+    left: -10px;
+    top: 252px;
+    border-radius: 1px;
+  }
+
+  .projects-text-about {
+    font-size: 47px;
+    position: relative;
+    left: -87px;
+    top: -111px;
+    letter-spacing: 1px;
+  }
+
+  .span-text {
+    position: relative;
+    left: -88px;
+    top: 29px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .about-span--link {
+    position: relative;
+    top: -160px;
+  }
+
+  .about-btn {
+    position: relative;
+    top: 10px;
+    padding: 11px;
+  }
+
+  .contact-btn {
+    position: relative;
+    top: 35px;
+    padding: 11px;
+  }
+
+  .lines--about {
+    position: relative;
+    left: -88px;
+    top: -120px;
+  }
 }
