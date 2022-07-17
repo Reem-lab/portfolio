@@ -24,8 +24,10 @@ const Header = () => (
     transform: "translatex(0px)",
   }}
   >
+      <div className="first-last--name">
       <h1 className="name">REEM</h1>
       <h2 className="last-name">JANINA</h2>
+      </div>
       <div className="lines">
         <div className="horizontal-line-red" />
         <div className="horizontal-line-red second" />

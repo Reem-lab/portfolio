@@ -20,7 +20,7 @@ const Works = () => {
   }}
   >
            <p className="projects-text">MOST HIGHLIGHTED PROJECTS</p>
-          <div className="lines">
+          <div className="lines lines-works">
               <div className="horizontal-line-red" />
                <div className="horizontal-line-red second" />
            </div>

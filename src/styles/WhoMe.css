@@ -16,7 +16,6 @@
 }
 
 .right-side--div {
-  /* margin-top: 120px; */
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -61,4 +60,38 @@
   height: 400px;
   margin: 12px;
   box-shadow: 1px 35px 60px 30px rgb(213, 218, 223);
+}
+
+@media only screen and (max-width: 420px) {
+  .information {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .number-text--about {
+    font-size: 34px;
+  }
+
+  .question {
+    font-size: 35px;
+  }
+
+  .heading-secondary {
+    font-size: 17px;
+    padding-top: 35px;
+    padding-left: 41px;
+  }
+
+  .small-summary {
+    width: 408px;
+    padding-left: 41px;
+    padding-right: 48px;
+  }
+
+  .my-photo {
+    width: 316px;
+    height: 316px;
+    margin-left: 20px;
+  }
 }

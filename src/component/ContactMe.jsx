@@ -25,7 +25,7 @@ const ContactMe = () => {
                <div className="horizontal-line-red second" />
            </div>
            <div className="about-span--link">
-            <Link to="/Form" className="btn" exact>
+            <Link to="/Form" className="btn contact-btn" exact>
               Let's connect
             </Link>
            </div>

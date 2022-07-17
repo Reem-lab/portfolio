@@ -1,12 +1,13 @@
 import '../styles/Form.css';
+import SocialLinks from './SocialLinks';
 
 const FormContact = () => {
   return (
     <section className="contact-form--wrap">
        <div className="left-side--form">
          <div className="horizontal--line-black" />
-         <p className="number-text--about">01</p>
-         <p className="question">Let's Contact  ✉</p>
+         <p className="number-text--about number-text--form">01</p>
+         <p className="question question-contact">Let's Contact  ✉</p>
       </div>
       <form class="form" id="form" action="https://formspree.io/f/mlezraod" method="POST">
           <input class="input input-name" type="text" name="name" placeholder="YOUR NAME" maxlength="30" required autofocus />

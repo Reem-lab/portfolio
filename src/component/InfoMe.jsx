@@ -18,7 +18,7 @@ const InfoMe = () => {
               <div className="horizontal--line-red" />
                <div className="horizontal-line-red second" />
            </div>
-           <span className="span-text">I love Design, Technology, and React.</span>
+           <span className="span-text span-text--mobile ">I love Design, Technology, and React.</span>
       </div>
       <div className="img-div">
            <img className="image2" src={about} alt="about" />

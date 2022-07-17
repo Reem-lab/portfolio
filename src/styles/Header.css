@@ -77,3 +77,74 @@
   letter-spacing: 2px;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 480px) {
+  .intro {
+    background: url('../images/moonlight.svg') no-repeat fixed 100%;
+    background-position-x: -88px;
+    background-size: 562px;
+    background-position-y: -42px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .info {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column-reverse;
+  }
+
+  .moon {
+    position: relative;
+    left: -377px;
+    top: -130px;
+    width: 305px;
+  }
+
+  .porfolio {
+    position: relative;
+    left: -406px;
+    top: -410px;
+    font-size: 27px;
+    font-weight: 800;
+  }
+
+  .first-last--name {
+    position: relative;
+    top: -125px;
+  }
+
+  .lines {
+    position: relative;
+    left: -160px;
+    top: -70px;
+  }
+
+  .moon-clouds {
+    position: relative;
+    left: 164px;
+  }
+
+  .name {
+    font-size: 33px;
+    position: relative;
+    left: -143px;
+    top: 76px;
+    letter-spacing: 4.5px;
+  }
+
+  .last-name {
+    font-size: 32px;
+    position: relative;
+    left: -145px;
+    top: 72px;
+    letter-spacing: 4.5px;
+  }
+
+  .job-title {
+    position: relative;
+    left: -144px;
+    top: -85px;
+    font-size: 12px;
+  }
+}

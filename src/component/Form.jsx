@@ -2,6 +2,7 @@ import { FaArrowLeft } from 'react-icons/fa';
 import '../styles/InfoMe.css';
 import contact from '../images/contact.jpg';
 import FormContact from './FormContact';
+import SocialLinks from './SocialLinks';
 const Form = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const Form = () => {
         </div>
     </section>
     <FormContact />
+    <SocialLinks />
     </>
   )
 }

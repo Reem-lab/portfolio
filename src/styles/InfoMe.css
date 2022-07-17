@@ -14,3 +14,49 @@
 .form-side--text {
   padding-top: 50px;
 }
+
+@media only screen and (max-width: 420px) {
+  .works-projects {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image2 {
+    width: 416px;
+    height: 456px;
+    position: relative;
+    left: -10px;
+    top: -42px;
+    border-radius: 1px;
+  }
+
+  .info-projects--text {
+    font-size: 45px;
+    left: 164px;
+    top: -196px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .backArrow {
+    position: absolute;
+    z-index: 2;
+    top: -630px;
+    width: 86px;
+    height: 62px;
+  }
+
+  .span-text--mobile {
+    position: relative;
+    left: 164px;
+    top: -172px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .lines--about {
+    position: relative;
+    left: -88px;
+    top: -120px;
+  }
+}

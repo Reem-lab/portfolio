@@ -23,8 +23,8 @@
 .anchor {
   text-decoration: none;
   color: #fff;
-  font-size: 7.5rem;
-  font-weight: 400;
+  font-size: 6.3rem;
+  font-weight: 600;
 }
 
 .anchor:hover {
@@ -52,4 +52,19 @@
 .exit {
   width: 6.2rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+  .ul-menu {
+    margin-top: 137px;
+  }
+
+  .anchor {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .exit {
+    width: 64px;
+  }
 }

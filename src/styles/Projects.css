@@ -68,3 +68,35 @@
   width: 150px;
   height: 80px;
 }
+
+@media only screen and (max-width: 420px) {
+  .works-projects {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image2 {
+    width: 451px;
+    height: 508px;
+    position: relative;
+    left: -10px;
+    top: -53px;
+    border-radius: 1px;
+  }
+
+  .projects--text {
+    font-size: 30px;
+    left: 22px;
+    top: 408px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .backArrow {
+    position: absolute;
+    z-index: 2;
+    top: -640px;
+    width: 86px;
+    height: 62px;
+  }
+}

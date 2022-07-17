@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
 
   /* position: fixed;
   top: 0;
@@ -40,4 +40,28 @@
   height: 50px;
   filter: brightness(-15);
   cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+  .nav {
+    position: absolute;
+    gap: 26px;
+    padding: 20px;
+  }
+
+  .social-icon {
+    display: none;
+  }
+
+  .menu-bar {
+    margin-left: 140px;
+    width: 38px;
+    height: 41px;
+  }
+
+  .name-nav {
+    font-size: 16px;
+
+    /* letter-spacing: 0.5px; */
+  }
 }
