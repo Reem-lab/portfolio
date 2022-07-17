@@ -116,3 +116,30 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 420px) {
+  .header-works {
+    position: relative;
+
+    /* top: -168px; */
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 0;
+    background-color: #020b16;
+  }
+
+  .heading-two {
+    font-size: 56px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #020b16;
+  }
+
+  .summary {
+    font-size: 17px;
+  }
+}
