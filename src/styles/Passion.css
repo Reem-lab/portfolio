@@ -35,6 +35,7 @@
 .passion-info {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: baseline;
   gap: 40px;
   margin: 50px;
@@ -56,12 +57,14 @@
 .design-paragraph {
   color: #9ca0a3;
   width: 350px;
+  text-align: left;
   padding-top: 12px;
   line-height: 1.7;
 }
 
 .heading-ternary {
   color: #072142;
+  padding-top: 15px;
 }
 
 @media only screen and (max-width: 420px) {
