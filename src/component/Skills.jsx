@@ -27,8 +27,8 @@ const Skills = () => {
                <img className="skill-icon" src={html} alt="html icon" />
                <div className="percent-frame">
                   <div className='top-precent'>
-                     <p className="skill-paragraph">HTML <span className="span-years">2 YEARS</span></p>
-                     <span className="percent">90%</span>
+                     <p className="skill-paragraph">HTML <span className="span-years">1 YEAR</span></p>
+                     {/* <span className="percent">90%</span> */}
                   </div>
                   <div className="line-skills--percent"> <span className='progress-line'></span></div>
                </div>
@@ -38,8 +38,8 @@ const Skills = () => {
                <img className="skill-icon" src={css} alt="html icon" />
                <div className="percent-frame">
                   <div className='top-precent'>
-                     <p className="skill-paragraph">CSS <span className="span-years">2 YEARS</span></p>
-                     <span className="percent">90%</span>
+                     <p className="skill-paragraph">CSS <span className="span-years">1 YEAR</span></p>
+                     {/* <span className="percent">90%</span> */}
                   </div>
                   <div className="line-skills--percent"> <span className='progress-line'></span></div>
                </div>
@@ -49,8 +49,8 @@ const Skills = () => {
                <img className="skill-icon" src={js} alt="html icon" />
                <div className="percent-frame">
                   <div className='top-precent'>
-                     <p className="skill-paragraph">JAVASCRIPT <span className="span-years">2 YEARS</span></p>
-                     <span className="percent">90%</span>
+                     <p className="skill-paragraph">JAVASCRIPT <span className="span-years">1 YEAR</span></p>
+                     {/* <span className="percent">90%</span> */}
                   </div>
                   <div className="line-skills--percent"> <span className='progress-line'></span></div>
                </div>
@@ -60,8 +60,8 @@ const Skills = () => {
                <img className="skill-icon" src={react} alt="html icon" />
                <div className="percent-frame">
                   <div className='top-precent'>
-                     <p className="skill-paragraph">REACT <span className="span-years">2 YEARS</span></p>
-                     <span className="percent">90%</span>
+                     <p className="skill-paragraph">REACT <span className="span-years">1 YEAR</span></p>
+                     {/* <span className="percent">90%</span> */}
                   </div>
                   <div className="line-skills--percent"> <span className='progress-line'></span></div>
                </div>
@@ -71,8 +71,8 @@ const Skills = () => {
                <img className="skill-icon" src={tailwind} alt="html icon" />
                <div className="percent-frame">
                   <div className='top-precent'>
-                     <p className="skill-paragraph">TAILWIND <span className="span-years">2 YEARS</span></p>
-                     <span className="percent">90%</span>
+                     <p className="skill-paragraph">TAILWIND <span className="span-years">1 YEAR</span></p>
+                     {/* <span className="percent">90%</span> */}
                   </div>
                   <div className="line-skills--percent"> <span className='progress-line'></span></div>
                </div>
@@ -86,8 +86,8 @@ const Skills = () => {
    <img className="skill-icon" src={ruby} alt="html icon" />
    <div className="percent-frame">
       <div className='top-precent'>
-         <p className="skill-paragraph">RUBY <span className="span-years">2 YEARS</span></p>
-         <span className="percent">90%</span>
+         <p className="skill-paragraph">RUBY <span className="span-years">1 YEAR</span></p>
+         {/* <span className="percent">90%</span> */}
       </div>
       <div className="line-skills--percent"> <span className='progress-line'></span></div>
    </div>
@@ -97,8 +97,8 @@ const Skills = () => {
    <img className="skill-icon" src={rails} alt="html icon" />
    <div className="percent-frame">
       <div className='top-precent'>
-         <p className="skill-paragraph">RUBY ON RAILS <span className="span-years">2 YEARS</span></p>
-         <span className="percent">90%</span>
+         <p className="skill-paragraph">RUBY ON RAILS <span className="span-years">1 YEAR</span></p>
+         {/* <span className="percent">90%</span> */}
       </div>
       <div className="line-skills--percent"> <span className='progress-line'></span></div>
    </div>
@@ -108,8 +108,8 @@ const Skills = () => {
    <img className="skill-icon" src={postgres} alt="html icon" />
    <div className="percent-frame">
       <div className='top-precent'>
-         <p className="skill-paragraph">POSTRGESQL <span className="span-years">2 YEARS</span></p>
-         <span className="percent">90%</span>
+         <p className="skill-paragraph">POSTRGESQL <span className="span-years">1 YEAR</span></p>
+         {/* <span className="percent">90%</span> */}
       </div>
       <div className="line-skills--percent"> <span className='progress-line'></span></div>
    </div>
@@ -119,8 +119,8 @@ const Skills = () => {
    <img className="skill-icon" src={jest} alt="html icon" />
    <div className="percent-frame">
       <div className='top-precent'>
-         <p className="skill-paragraph">JEST <span className="span-years">2 YEARS</span></p>
-         <span className="percent">90%</span>
+         <p className="skill-paragraph">JEST <span className="span-years">1 YEAR</span></p>
+         {/* <span className="percent">90%</span> */}
       </div>
       <div className="line-skills--percent"> <span className='progress-line'></span></div>
    </div>
@@ -130,8 +130,8 @@ const Skills = () => {
    <img className="skill-icon" src={sass} alt="html icon" />
    <div className="percent-frame">
       <div className='top-precent'>
-         <p className="skill-paragraph">SASS <span className="span-years">2 YEARS</span></p>
-         <span className="percent">90%</span>
+         <p className="skill-paragraph">SASS <span className="span-years">1 YEAR</span></p>
+         {/* <span className="percent">90%</span> */}
       </div>
       <div className="line-skills--percent"> <span className='progress-line'></span></div>
    </div>

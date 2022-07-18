@@ -10,7 +10,7 @@ const FormContact = () => {
          <p className="question question-contact">Let's Contact  ✉</p>
       </div>
       <form class="form" id="form" action="https://formspree.io/f/mlezraod" method="POST">
-          <input class="input input-name" type="text" name="name" placeholder="YOUR NAME" maxlength="30" required autofocus />
+          <input class="input input-name" type="text" name="name" placeholder="YOUR NAME" maxlength="30" required  />
             <input class="input input-email" id="email" type="email" name="email" placeholder="YOUR EMAIL" required />
             <textarea class="input input-text-area" name="YOUR MESSAGE" cols="30" rows="10" maxlength="500"
               placeholder="YOUR MESSAGE" required></textarea>

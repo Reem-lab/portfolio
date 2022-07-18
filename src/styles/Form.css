@@ -17,6 +17,11 @@
 .input {
   width: 400px;
   height: 35px;
+  padding: 18px;
+
+  /* outline: none; */
+
+  /* outline-color: #e64551; */
   border-radius: 5px;
   box-shadow: 1px 5px 6px 3px rgb(213, 218, 223);
 }

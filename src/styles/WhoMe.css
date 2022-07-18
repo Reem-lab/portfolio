@@ -57,7 +57,7 @@
 
 .my-photo {
   width: 450px;
-  height: 400px;
+  height: auto;
   margin: 12px;
   box-shadow: 1px 35px 60px 30px rgb(213, 218, 223);
 }
