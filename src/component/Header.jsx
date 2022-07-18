@@ -5,7 +5,7 @@ import Cloud3 from './cloud3';
 import img6 from '../images/moon.svg';
 
 const Header = () => (
-  <div className="intro">
+  <div id="header" className="intro">
     <div>
       <div className="horizontal-line" />
       <div className="horizontal-line" />
