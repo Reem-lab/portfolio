@@ -26,9 +26,9 @@ const Home = () => (
           </FullpageSection>
       </FullPageSections>
     </Fullpage> */}
-            <Navbar />
-             <Header />
-             <Works />
+          <Navbar />
+          <Header />
+          <Works />
              <About />
              <ContactMe />
   </div>
