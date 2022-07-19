@@ -18,10 +18,10 @@ const Menu = ({onclick}) => {
     <div className='main'>
      <nav class="nav">
        <ul class="ul-menu">
-       <li  class="li-menu"><a class="anchor" href="#header">HOME</a></li>
-         <li  class="li-menu"><a class="anchor" href="#works">WORKS</a></li>
-         <li class="li-menu"><a class="anchor" href="#about">ABOUT</a></li>
-         <li class="li-menu"><a class="anchor" href="#contact">CONTACT</a></li>
+       <li  class="li-menu"><a onClick={onclick} class="anchor" href="#header">HOME</a></li>
+         <li  class="li-menu"><a onClick={onclick} class="anchor" href="#works">WORKS</a></li>
+         <li class="li-menu"><a onClick={onclick} class="anchor" href="#about">ABOUT</a></li>
+         <li class="li-menu"><a onClick={onclick} class="anchor" href="#contact">CONTACT</a></li>
        </ul>
     </nav>
         <div className="exit-div" >
