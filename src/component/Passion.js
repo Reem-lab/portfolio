@@ -15,12 +15,12 @@ const Passion = () => (
         <div className="design">
           <img className="design" src={design} alt="design" />
           <h3 className="heading-ternary">DESIGN</h3>
-          <p className="design-paragraph">I think design is like a `&quot;`magic wand`&quot;`. If a service or product is magic to solve a problem, it is the role of design to act as an intermediary for the user to master it. We strive every day to create a `&quot;` magic wand`&quot;` that matches the user.</p>
+          <p className="design-paragraph">I think design is like a &quot;magic wand&quot;. If a service or product is magic to solve a problem, it is the role of design to act as an intermediary for the user to master it. We strive every day to create a &quot;magic wand&quot; that matches the user.</p>
         </div>
         <div className="design">
           <img className="design" src={tech} alt="tech" />
           <h3 className="heading-ternary">TECHNOLOGY</h3>
-          <p className="design-paragraph">Technology has the power to change the lives of the world and individuals, as the phrase `&quot;`well-developed science and technology is indistinguishable from magic.`&quot;` I want to be a person who can always catch up with the latest technology and respond to changes. I think it is the mission of designers as well as engineers to promote innovation.</p>
+          <p className="design-paragraph">Technology has the power to change the lives of the world and individuals, as the phrase &quot;well-developed science and technology is indistinguishable from magic.&quot; I want to be a person who can always catch up with the latest technology and respond to changes. I think it is the mission of designers as well as engineers to promote innovation.</p>
         </div>
         <div className="design">
           <FaReact className="react-icon" />

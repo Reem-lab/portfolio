@@ -5,7 +5,7 @@ const FormContact = () => (
     <div className="left-side--form">
       <div className="horizontal--line-black" />
       <p className="number-text--about number-text--form">01</p>
-      <p className="question question-contact">Let`&apos;`s Contact  ✉</p>
+      <p className="question question-contact">Let&apos;s Contact  ✉</p>
     </div>
     <form className="form" id="form" action="https://formspree.io/f/mlezraod" method="POST">
       <input className="input input-name" type="text" name="name" placeholder="YOUR NAME" maxLength="30" required />

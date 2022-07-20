@@ -25,7 +25,7 @@ const ContactMe = () => (
         </div>
         <div className="about-span--link">
           <Link to="/Form" className="btn contact-btn" exact>
-            Let`&apos`s connect
+            Let&apos;s connect
           </Link>
         </div>
       </Animate>
