@@ -1,6 +1,6 @@
 import img1 from '../images/b_cloud02.svg';
 import img2 from '../images/b_cloud01.svg';
-import '../styles/clouds.css'
+import '../styles/clouds.css';
 
 const Cloud2 = () => (
   <div className="clouds">
