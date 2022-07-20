@@ -4,16 +4,24 @@
   align-items: center;
   padding: 30px;
 
-  /* position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100; */
+  /* position: fixed; */
+
+  /* top: 0; */
+
+  /* width: 100%; */
+
+  /* z-index: 900;  */
 }
 
 .name-nav {
   font-size: 20px;
   letter-spacing: 2px;
   word-spacing: 6px;
+}
+
+.name-nav-link {
+  color: #fff;
+  text-decoration: none;
 }
 
 .wrap-social {

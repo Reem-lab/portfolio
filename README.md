@@ -3,7 +3,7 @@
 
 # Portfolio
 
-> A Simple Software Engineer Portfolio App Made with Vanilla HTML5, CSS3 and React. The Project Contains a Showcase with Information About Me, All of My Works (Apps), and a Contact Form for Communication
+> A Simple Software Engineer Portfolio App Made with Vanilla React, HTML5, and CSS3. The Project Contains a Showcase with Information About Me, some of My Works (Apps), and a Contact Form for Communication.
 
 
 ## Video Demo 🎥
@@ -71,7 +71,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Orgiginal design inspired from [Kuon yagi](https://dribbble.com/kuon_yagi)
+- Original design inspired from [Kuon yagi](https://dribbble.com/kuon_yagi)
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc

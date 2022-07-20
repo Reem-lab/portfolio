@@ -19,7 +19,7 @@ const Navbar = () => {
     {menu && <Menu onclick={onClickHandler}/>}
   <div className="nav">
     <div className="name-div">
-      <p className="name-nav">Reem Janina</p>
+      <p className="name-nav"><a className='name-nav-link' href='/'>Reem Janina</a></p>
     </div>
     <div className="wrap-social">
       <div className="social">
