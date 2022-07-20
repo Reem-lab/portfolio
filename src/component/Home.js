@@ -1,4 +1,5 @@
-// import Fullpage,{ FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
+// // import Fullpage,{ FullPageSections,
+// FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import Header from './Header';
 import Works from './Works';
 import Navbar from './Navbar';
@@ -26,11 +27,11 @@ const Home = () => (
           </FullpageSection>
       </FullPageSections>
     </Fullpage> */}
-          <Navbar />
-          <Header />
-          <Works />
-             <About />
-             <ContactMe />
+    <Navbar />
+    <Header />
+    <Works />
+    <About />
+    <ContactMe />
   </div>
 );
 
