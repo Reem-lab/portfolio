@@ -20,9 +20,7 @@ https://user-images.githubusercontent.com/58553711/180063763-b1672e44-0a5e-46f1-
 
 [![Heroku](https://img.shields.io/badge/Heroku-deploy-yellow)](https://immense-wave-24332.herokuapp.com/)
 
-[Netlify](https://polite-kringle-be87e4.netlify.app/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ab0d25b2-9579-4b6a-9343-de9326fce109/deploy-status)](https://app.netlify.com/sites/polite-kringle-be87e4/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab0d25b2-9579-4b6a-9343-de9326fce109/deploy-status)](https://app.netlify.com/sites/reemme/deploys)
 
 ## Built With
 
